@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Navbar, NavItem, Nav, NavDropdown, MenuItem, Thumbnail } from 'react-bootstrap';
+import { Navbar, NavItem, Nav } from 'react-bootstrap';
 
 const Header = () => (
   <Navbar collapseOnSelect fixedTop>
