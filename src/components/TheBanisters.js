@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Image } from 'react-bootstrap'
+import { Grid, Image } from 'react-bootstrap';
+import '../styles/bandPage.css'
 
 const TheBanisters = () => {
   return (
@@ -15,9 +16,9 @@ const TheBanisters = () => {
         </p>
       </main>
       <div className="spotifyPlayer" >
-      <iframe src="https://open.spotify.com/embed/user/12949512/playlist/49FtTW6xInKhHS2RFHI6q9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe title="The Banisters Spotify player" src="https://open.spotify.com/embed/user/12949512/playlist/49FtTW6xInKhHS2RFHI6q9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      <p className="bandWebsite"><a href="http://www.thebanistersmusic.com">THEBANISTERS.COM</a></p>
+      <p className="bandWebsite"><a href="http://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer">THEBANISTERS.COM</a></p>
     </Grid>
     )
   };

@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Image } from 'react-bootstrap'
+import { Grid, Image } from 'react-bootstrap';
+import '../styles/bandPage.css'
 
 const Lip = () => {
   return (
@@ -12,9 +13,9 @@ const Lip = () => {
         </p>
       </main>
       <div className="spotifyPlayer" >
-        <iframe src="https://open.spotify.com/embed/artist/0KzWIBt5mAKgTCA0toB0uc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        <iframe title="LIP Spotify player" src="https://open.spotify.com/embed/artist/0KzWIBt5mAKgTCA0toB0uc" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      <p className="bandWebsite"><a href="http://www.liptheband.com">LIPTHEBAND.COM</a></p>
+      <p className="bandWebsite"><a href="http://www.liptheband.com" target="_blank" rel="noopener noreferrer">LIPTHEBAND.COM</a></p>
     </Grid>
     )
   };

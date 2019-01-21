@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Image } from 'react-bootstrap'
+import { Grid, Image } from 'react-bootstrap';
+import '../styles/bandPage.css'
 
 const YouthAndCanvas = () => {
   return (
@@ -12,9 +13,9 @@ const YouthAndCanvas = () => {
         </p>
       </main>
       <div className="spotifyPlayer" >
-      <iframe src="https://open.spotify.com/embed/artist/3eCLCmoMffc5EdqAdOhE3Y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe title="Youth & Canvas Spotify player" src="https://open.spotify.com/embed/artist/3eCLCmoMffc5EdqAdOhE3Y" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      <p className="bandWebsite"><a href="https://www.facebook.com/youthandcanvas/" target="_blank">YOUTHANDCANVAS.COM</a></p>
+      <p className="bandWebsite"><a href="https://www.facebook.com/youthandcanvas/" target="_blank" rel="noopener noreferrer">YOUTHANDCANVAS.COM</a></p>
     </Grid>
     )
   };
