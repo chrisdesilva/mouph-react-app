@@ -6,6 +6,7 @@ import HomePage from '../components/HomePage'
 import NotFoundPage from '../components/NotFoundPage';
 import YouthAndCanvas from '../components/YouthAndCanvas';
 import TheBanisters from '../components/TheBanisters';
+import Footer from '../components/Footer';
 
 
 const AppRouter = () => (
@@ -19,6 +20,7 @@ const AppRouter = () => (
       <Route path="/youthandcanvas" component={YouthAndCanvas}/>
       <Route component={NotFoundPage}/>
     </Switch>
+    <Footer/>
     </div>
   </BrowserRouter>
 );

@@ -12,8 +12,6 @@ const HomePage = () => (
         <h3>LIP</h3>
         <div className="homeButtons">
           <NavLink to="/lip" className="navLink" activeClassName="is-active"><Button bsStyle="primary">Bio Page</Button></NavLink>
-          &nbsp;
-          <Button bsStyle="default">Contact</Button>
         </div>
       </Thumbnail>
     </Col>
@@ -22,8 +20,6 @@ const HomePage = () => (
         <h3>The Banisters</h3>
         <div className="homeButtons">
         <NavLink to="/thebanisters" className="navLink" activeClassName="is-active"><Button bsStyle="primary">Bio Page</Button></NavLink> 
-          &nbsp;
-          <Button bsStyle="default">Contact</Button>
         </div>
       </Thumbnail>
     </Col>
@@ -32,8 +28,6 @@ const HomePage = () => (
         <h3>Youth & Canvas</h3>
         <div className="homeButtons">
         <NavLink to="/youthandcanvas" className="navLink" activeClassName="is-active"><Button bsStyle="primary">Bio Page</Button></NavLink>
-          &nbsp;
-          <Button bsStyle="default">Contact</Button>
         </div>
       </Thumbnail>
     </Col>
