@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Image } from 'react-bootstrap';
 import '../styles/bandPage.css'
 
-const TheBanisters = () => {
+const TheBanisters = (props) => {
   return (
     <Grid>
       <h1 className="bandHeader">The Banisters</h1>
@@ -16,7 +16,7 @@ const TheBanisters = () => {
         </p>
       </main>
       <div className="spotifyPlayer" >
-      <iframe title="The Banisters Spotify player" src="https://open.spotify.com/embed/user/12949512/playlist/49FtTW6xInKhHS2RFHI6q9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      <iframe title="The Banisters Spotify player" src="https://open.spotify.com/embed/user/12949512/playlist/49FtTW6xInKhHS2RFHI6q9" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
       <p className="bandWebsite"><a href="http://www.thebanistersmusic.com" target="_blank" rel="noopener noreferrer">THEBANISTERS.COM</a></p>
     </Grid>

@@ -8,3 +8,13 @@
 a {
   text-transform: uppercase;
 }
+
+.navLink {
+  color: white;
+  transition: all 500ms ease-in-out;
+}
+
+.navLink:hover {
+  color: lightgray;
+  text-decoration: none;
+}

@@ -4,7 +4,7 @@ import { Navbar, NavItem, Nav } from 'react-bootstrap';
 import '../styles/Header.css'
 
 const Header = () => (
-  <Navbar collapseOnSelect fixedTop>
+  <Navbar inverse collapseOnSelect fixedTop>
     <Navbar.Header>
     <Navbar.Brand>
       <NavLink to="/" className="navLink" activeClassName="is-active" exact={true}>Mouph</NavLink>
