@@ -1,6 +1,14 @@
 #footerContainer p {
   text-align: center;
   text-transform: uppercase;
+  font-size: 1.5em;
+}
+
+#footerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
 }
 
 a {

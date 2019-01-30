@@ -1,12 +1,13 @@
 import React from 'react';
 import { Grid, Image } from 'react-bootstrap';
-import '../styles/bandPage.css'
+import '../styles/bandPage.css';
+import { photo } from "../public/images/LIP.jpg";
 
 const Lip = () => {
   return (
     <Grid>
       <h1 className="bandHeader">LIP</h1>
-      <Image className="bandPhoto" src="./../../images/LIP.jpg" responsive/>
+      <Image className="bandPhoto" src={require('../public/images/LIP.jpg')} responsive/>
       <main className="bandBio">
         <p>
         Multi-dimensioned and melancholy as midnight, LIP’s music weaves through an intense affair of confession booth candor and Radiohead-esque tempo. Their sound evokes a feeling of looking inward and wrestling with the truth while coming unglued. Distinctly rehearsed and constructed, each song takes you through cosmic introspection and reminds you of what it feels like to get lost in someone else.

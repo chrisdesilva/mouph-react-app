@@ -2,11 +2,11 @@ import React from 'react';
 import { Grid, Image } from 'react-bootstrap';
 import '../styles/bandPage.css'
 
-const TheBanisters = (props) => {
+const TheBanisters = () => {
   return (
     <Grid>
       <h1 className="bandHeader">The Banisters</h1>
-      <Image className="bandPhoto" src="./../../images/BanistersBus-min.jpg" responsive/>
+      <Image className="bandPhoto" src={require("../public/images/BanistersBus-min.jpg")} responsive/>
       <main className="bandBio">
         <p>
           The Banisters are a super decent rock band from Austin, Texas. Friends and work colleagues have described them as "actually pretty good" and "better than I expected" while promising that despite the recent string of obligatory grandparent birthday celebrations, they'd definitely come to the next show. The songwriting core started in the summer of 2015 as a mix of co-workers and mutual acquaintances. Blending punk, blues, and psych-rock influences, the fledgling band soon found themselves where most bands unfortunately find themselves- on Craigslist, seeking drums and bass. Netting lukewarm and confusing results on Tinder, the band found solace in the words of Nicholas Sparks, "Love is like the wind, you can't see it, but you can feel it."

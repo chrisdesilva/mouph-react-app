@@ -16,9 +16,14 @@ h3 {
   text-align: center;
 }
 
-.thumbnail img {
+.react-parallax {
   width: auto;
-  height: 189px;
-  margin-top: 1em;
+  margin-top: 2em;
+}
+
+@media (max-width: 600px){
+  .react-parallax div{
+    height: 300px;
+  }
 }
 
