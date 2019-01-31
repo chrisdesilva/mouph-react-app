@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid } from 'react-bootstrap';
 import HomePageCarousel from './HomePageCarousel'
 import '../styles/homepage.css'
 

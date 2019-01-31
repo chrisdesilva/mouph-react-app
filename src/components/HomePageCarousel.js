@@ -1,8 +1,7 @@
 import React from 'react';
-import { Button, Col, Grid, Row, Thumbnail } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import '../styles/homepage.css'
-import { Parallax, Background } from 'react-parallax';
+import { Parallax } from 'react-parallax';
 
 class HomePage extends React.Component{
   render() {
@@ -22,7 +21,7 @@ class HomePage extends React.Component{
       <div>
       <Parallax
           blur={{ min: -15, max: 15 }}
-          bgImage={require('../public/images/LIP.jpg')}
+          bgImage={require('../images/LIP.jpg')}
           bgImageAlt="LIP"
           strength={200}
       >
@@ -32,7 +31,7 @@ class HomePage extends React.Component{
       </Parallax>
       <Parallax
           blur={{ min: -15, max: 15 }}
-          bgImage={require('../public/images/BanistersBus-min.jpg')}
+          bgImage={require('../images/BanistersBus-min.jpg')}
           bgImageAlt="The Banisters"
           strength={200}
       >
@@ -42,7 +41,7 @@ class HomePage extends React.Component{
       </Parallax>
       <Parallax
           blur={{ min: -15, max: 15 }}
-          bgImage={require("../public/images/YouthColor.jpg")}
+          bgImage={require("../images/YouthColor.jpg")}
           bgImageAlt="Youth & Canvas"
           strength={300}
       >
@@ -56,18 +55,3 @@ class HomePage extends React.Component{
 } 
 
 export default HomePage
-
-// <Grid className="fluid">
-// <Row>
-//   {thumbnailInfo.map((thumbnail) => {
-//     return <Col key={thumbnail.link} xs={12} md={4}>
-//     <Thumbnail className="homePhoto" src={thumbnail.src} alt={thumbnail.alt}>
-//       <h3>{thumbnail.name}</h3>
-//         <div className="homeButtons">
-//           <NavLink to={thumbnail.link} className="navLink" activeClassName="is-active"><Button bsStyle="primary">Bio Page</Button></NavLink>
-//         </div>
-//     </Thumbnail>
-//     </Col>
-//   })}
-// </Row>
-// </Grid>
